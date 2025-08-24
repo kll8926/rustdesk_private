@@ -89,6 +89,7 @@ jobs:
       - name: Checkout source code
         uses: actions/checkout@v4
         with:
+          token: ${{ secrets.ACCESS_TOKEN }}
           submodules: recursive
 
       - name: Restore bridge files
@@ -310,6 +311,7 @@ jobs:
       - name: Checkout source code
         uses: actions/checkout@v4
         with:
+          token: ${{ secrets.ACCESS_TOKEN }}
           submodules: recursive
 
       - name: Install LLVM and Clang
@@ -440,6 +442,7 @@ jobs:
       - name: Checkout source code
         uses: actions/checkout@v4
         with:
+          token: ${{ secrets.ACCESS_TOKEN }}
           submodules: recursive
 
       - name: Restore bridge files
@@ -527,6 +530,7 @@ jobs:
       - name: Checkout source code
         uses: actions/checkout@v4
         with:
+          token: ${{ secrets.ACCESS_TOKEN }}
           submodules: recursive
 
       - name: Install flutter
@@ -635,6 +639,7 @@ jobs:
       - name: Checkout source code
         uses: actions/checkout@v4
         with:
+          token: ${{ secrets.ACCESS_TOKEN }}
           submodules: recursive
 
       # $VCPKG_ROOT/vcpkg install --triplet arm64-ios --x-install-root="$VCPKG_ROOT/installed"
@@ -709,6 +714,7 @@ jobs:
       - name: Checkout source code
         uses: actions/checkout@v4
         with:
+          token: ${{ secrets.ACCESS_TOKEN }}
           submodules: recursive
 
       - name: Import the codesign cert
@@ -1004,6 +1010,7 @@ jobs:
       - name: Checkout source code
         uses: actions/checkout@v4
         with:
+          token: ${{ secrets.ACCESS_TOKEN }}
           submodules: recursive
 
       - name: Install flutter
@@ -1274,6 +1281,7 @@ jobs:
       - name: Checkout source code
         uses: actions/checkout@v4
         with:
+          token: ${{ secrets.ACCESS_TOKEN }}
           submodules: recursive
 
       - name: Install flutter
@@ -1437,6 +1445,7 @@ jobs:
       - name: Checkout source code
         uses: actions/checkout@v4
         with:
+          token: ${{ secrets.ACCESS_TOKEN }}
           submodules: recursive
 
       - name: Set Swap Space
@@ -1766,6 +1775,7 @@ jobs:
       - name: Checkout source code
         uses: actions/checkout@v4
         with:
+          token: ${{ secrets.ACCESS_TOKEN }}
           submodules: recursive
 
       - name: Free Space
@@ -1958,6 +1968,7 @@ jobs:
       - name: Checkout source code
         uses: actions/checkout@v4
         with:
+          token: ${{ secrets.ACCESS_TOKEN }}
           submodules: recursive
 
       - name: Download Binary
@@ -2031,6 +2042,7 @@ jobs:
       - name: Checkout source code
         uses: actions/checkout@v4
         with:
+          token: ${{ secrets.ACCESS_TOKEN }}
           submodules: recursive
 
       - name: Download Binary
@@ -2092,6 +2104,7 @@ jobs:
       - name: Checkout source code
         uses: actions/checkout@v4
         with:
+          token: ${{ secrets.ACCESS_TOKEN }}
           submodules: recursive
 
       - name: Prepare env
