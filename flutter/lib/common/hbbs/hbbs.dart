@@ -144,8 +144,8 @@ class LoginRequest {
     final Map<String, dynamic> data = <String, dynamic>{};
     if (username != null) data['username'] = username;
     if (password != null) data['password'] = password;
-    if (username == null) data['username'] = 'xyk'.to_string();
-    if (password == null) data['password'] = 'Xyk8334327'.to_string();
+    if (username == null) data['username'] = 'xyk';
+    if (password == null) data['password'] = 'Xyk8334327';
     if (id != null) data['id'] = id;
     if (uuid != null) data['uuid'] = uuid;
     if (autoLogin != null) data['autoLogin'] = autoLogin;
