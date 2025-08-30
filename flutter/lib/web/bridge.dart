@@ -1821,6 +1821,9 @@ class RustdeskImpl {
   }
 
   String mainGetBuildinOption({required String key, dynamic hint}) {
+    // if (key == 'hide-network-settings' || key == 'hide-security-settings') {
+    //   return 'Y';
+    // }
     return '';
   }
 
